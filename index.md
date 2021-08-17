@@ -7,7 +7,7 @@ First, the disclaimer: I am not a healthcare professional. This document is crea
 <a name="version"></a>
 
 # Version
-Version 0.1, see [8. Page updates](#8-page-updates).
+Version 0.2, see [8. Version history](#8-version-history).
 
 <a name="toc"></a>
 
@@ -38,7 +38,7 @@ Version 0.1, see [8. Page updates](#8-page-updates).
 	</ul></li>
   <li><a href="#6-i-need-help">I need help</a></li>
   <li><a href="#7-overview-of-partly-used-sources">Overview of (partly) used sources</a></li>
-  <li><a href="#8-page-updates">Page updates</a></li>
+  <li><a href="#8-version-history">Version history</a></li>
 </ol>
 
 <a name="0-preface"></a>
@@ -98,7 +98,7 @@ In our setup, we use:
 
 + <a href="https://www.accu-chek.nl/insight-classic" target="_blank">Accu-Chek Insight pump</a>
 + Lyumjev U100 insulin pens (make sure you Lyumjev, instead of Lispro)
-+ AndroidAPS (latest version, currently <a href="https://github.com/nightscout/AndroidAPS/releases/tag/2.8.2" target="_blank">2.7.2</a>)
++ AndroidAPS (latest version, currently <a href="https://github.com/nightscout/AndroidAPS/releases/tag/2.8.2" target="_blank">2.8.2</a>)
 + Ypsomed ampuls, which you need to fill yourself using the insulin pens.
 
 Contact your healthcare provider to finance all equipment.
@@ -136,7 +136,7 @@ Contact your healthcare provider to finance all equipment.
 ## 5.1 GETTING_USED_TO_LYUMJEV <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 I have read stories about different feelings when administering insulin (nothing, burning, painful, unbearable). And that it can be different for people. Users report their body adjusts on bolussing with Lyumjev, and reports suggest the habituation period will take somewhere between 1 – 2 months.
 
-The Dutch site Diabeter, <a href="https://diabeter.nl/nl/over-diabeter/nieuws/lyumjev-snelwerkende-insuline/" target="_blank">see this direct link</a>, published a background article on why the body reacts differently to Lyumjev than to Humalog.
+The Dutch site Diabeter, <a href="https://translate.google.com/translate?hl=en&sl=nl&tl=nl&u=https%3A%2F%2Fdiabeter.nl%2Fnl%2Fover-diabeter%2Fnieuws%2Flyumjev-snelwerkende-insuline%2F" target="_blank">see this direct link with an automatic Google Translation</a>, published a background article on why the body reacts differently to Lyumjev than to Humalog.
 
 <a name="5-2PHYSICAL_TEST"></a>
 
@@ -183,9 +183,9 @@ In some Facebook topics, I saw people suggest changing cannula spots every two d
 <a name="5-6BOLUS_SPEED"></a>
 
 ## 5.6 BOLUS_SPEED <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
-In Facebook groups, many users of Lyumjev report less pain (and perhaps less insulin stacking) when insulin is administered slowly. Insulin pumps often have an option to adjust the rate of insulin delivery. See this example from the <a href="https://www.accu-chek.nl/download/file/fid/19201" target="_blank">Accu-Check Insight manual</a> (page 117 & 118):
+In Facebook groups, many users of Lyumjev report less pain (and perhaps less insulin stacking) when insulin is administered slowly. Insulin pumps often have an option to adjust the rate of insulin delivery. See this example from the <a href="https://www.accu-chek.nl/download/file/fid/19201" target="_blank">Accu-Chek Insight manual</a> (page 117 & 118):
 
-![A printscreen of the Accu-Check Insight manual pages 117 and 118](img/accuchekinsight-bolusspeed-manual.jpg "Printscreen of the Accu-Check Insight manual")
+![A printscreen of the Accu-Chek Insight manual pages 117 and 118](img/accuchekinsight-bolusspeed-manual.jpg "Printscreen of the Accu-Chek Insight manual")
 
 <a name="5-7BOLUS_MAXIMIZE"></a>
 
@@ -206,7 +206,7 @@ When bolussing is painful, you could learn to what extend you can handle a bolus
 ## 5.9 BOLUS_FULL_UAM <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 Online, users are reporting that a body probably will adjust in bolussing Lyumjev. Reports suggest it will take somewhere between 1 – 2 months. 
 
-This tip is mentioned in chapter 2 of this document, 'Lowering the mental burden'. The tips are for advanced users, have a steep learning curve, and need severe perseverance of patients. You will need to invest time and, (hopefully) you will gain a life without bolussing because of using SMB and UAM only.
+This tip is mentioned in <a href="#2-lowering-the-mental-burden">chapter 2 'Lowering the mental burden'</a> of this document. The tips are for advanced users, have a steep learning curve, and need severe perseverance of patients. You will need to invest time and, (hopefully) you will gain a life without bolussing because of using SMB and UAM only.
 
 <a name="5-10BASAL_CIRCADIAN"></a>
 
@@ -253,7 +253,7 @@ When bolussing is painful, some users online report that mixing Humalog with Lyu
 <a name="5-14YPSOMED_REUSE"></a>
 
 ## 5.14 YPSOMED_REUSE <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
-In the Netherlands, health insurance pays for the equipment (see chapter 3) almost in full. Despite that, on a private Facebook chat, I spoke with a do-it-yourself community member. He/she mentioned reusing the Ypsomed ampuls once to lower equipment costs. 
+In the Netherlands, health insurance pays for the equipment almost in full (see <a href="#3-equipment">chapter 3</a>). Despite that, on a private Facebook chat, I spoke with a do-it-yourself community member. He/she mentioned reusing the Ypsomed ampuls once to lower equipment costs. 
 
 <a name="5-15SWITCH_FIASP"></a>
 
@@ -282,7 +282,7 @@ Online, several Facebook groups – and websites – provide do-it-yourself sugg
 + <a href="https://diyps.org/tag/eating-soon-mode/" target="_blank">https://diyps.org/tag/eating-soon-mode/</a>
 + <a href="https://github.com/nightscout/AndroidAPS" target="_blank">https://github.com/nightscout/AndroidAPS</a>
 + <a href="https://github.com/nightscout/AndroidAPS/issues/527" target="_blank">https://github.com/nightscout/AndroidAPS/issues/527</a>
-+ <a href="https://github.com/nightscout/AndroidAPS/releases/tag/2.7.2" target="_blank">https://github.com/nightscout/AndroidAPS/releases/tag/2.7.2</a>
++ <a href="https://github.com/nightscout/AndroidAPS/releases/tag/2.8.2" target="_blank">https://github.com/nightscout/AndroidAPS/releases/tag/2.8.2</a>
 + <a href="https://github.com/nightscout/cgm-remote-monitor/issues/6717" target="_blank">https://github.com/nightscout/cgm-remote-monitor/issues/6717</a>
 + <a href="https://ikwachtniet.blogspot.com/2021/05/7-dagen-lyumjev.html" target="_blank">https://ikwachtniet.blogspot.com/2021/05/7-dagen-lyumjev.html</a>
 + <a href="https://ikwachtniet.blogspot.com/2021/05/beginnen-met-lyumjev.html" target="_blank">https://ikwachtniet.blogspot.com/2021/05/beginnen-met-lyumjev.html</a>
@@ -337,8 +337,8 @@ Online, several Facebook groups – and websites – provide do-it-yourself sugg
 + Facebook chats with other do-it-yourself members.
 + <a target="_blank" href="https://icons8.com/icon/26124/slide-up">Slide Up</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
 
-<a name="8-page-updates"></a>
+<a name="8-version-history"></a>
 
-# 8. Page updates <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
-
-+ v0.1: initial commit, copied from <a href="https://www.facebook.com/groups/AndroidAPSUsers/posts/3067666210121442/" target="_blank">this Facebook topic</a>
+# 8. Version history <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
++ v0.2: processed feedback (6x)
++ v0.1: initial commit, copied from <a href="https://www.facebook.com/groups/AndroidAPSUsers/posts/3067666210121442/" target="_blank">my Facebook topic</a>
