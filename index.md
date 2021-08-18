@@ -1,13 +1,13 @@
 <a name="top"></a>
 
-First, the disclaimer: I am not a healthcare professional. This document is created as a personal summary. No medical decisions should be made solely based on this document. **Always consult your medical team before making changes to your diabetes treatment plan.**
+First, the disclaimer: I am not a healthcare professional. This document is created as a personal summary. No medical decisions should be made solely based on this document. **Always consult your medical team before making changes to your diabetes treatment plan.**. Use <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https%3A%2F%2Fpetervanrijt.github.io%2Flyumjevsummary%2F">this link</a> for an automatic translation using Google Translate.
 
 ![A warning to not make medical decisions.](img/No_medical_advice.jpg "No medical decisions should be made solely based on this document.")
 
 <a name="version"></a>
 
 # Version
-Version 0.2, see [8. Version history](#8-version-history).
+Version 0.3, see [8. Version history](#8-version-history).
 
 <a name="toc"></a>
 
@@ -136,7 +136,7 @@ Contact your healthcare provider to finance all equipment.
 ## 5.1 GETTING_USED_TO_LYUMJEV <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 I have read stories about different feelings when administering insulin (nothing, burning, painful, unbearable). And that it can be different for people. Users report their body adjusts on bolussing with Lyumjev, and reports suggest the habituation period will take somewhere between 1 – 2 months.
 
-The Dutch site Diabeter, <a href="https://translate.google.com/translate?hl=en&sl=nl&tl=nl&u=https%3A%2F%2Fdiabeter.nl%2Fnl%2Fover-diabeter%2Fnieuws%2Flyumjev-snelwerkende-insuline%2F" target="_blank">see this direct link with an automatic Google Translation</a>, published a background article on why the body reacts differently to Lyumjev than to Humalog.
+The Dutch site Diabeter, <a href="https://translate.google.com/translate?hl=en&sl=nl&tl=nl&u=https%3A%2F%2Fdiabeter.nl%2Fnl%2Fover-diabeter%2Fnieuws%2Flyumjev-snelwerkende-insuline%2F" target="_blank">see this direct link for an automatic Google Translation</a>, published a background article on why the body reacts differently to Lyumjev than to Humalog.
 
 <a name="5-2PHYSICAL_TEST"></a>
 
@@ -340,5 +340,6 @@ Online, several Facebook groups – and websites – provide do-it-yourself sugg
 <a name="8-version-history"></a>
 
 # 8. Version history <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
++ v0.3: added links for automatic Google Translation (2x)
 + v0.2: processed feedback (6x)
 + v0.1: initial commit, copied from <a href="https://www.facebook.com/groups/AndroidAPSUsers/posts/3067666210121442/" target="_blank">my Facebook topic</a>
