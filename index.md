@@ -9,38 +9,39 @@ Use <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https%3A
 <a name="version"></a>
 
 # Version
-Version 0.6, see [8. Version history](#8-version-history).
+Version 0.7, see [8. Version history](#8-version-history).
 
 <a name="toc"></a>
 
 # Table of contents
 <ol start="0">
-  <li><a href="#0-preface">Preface</a></li>
-  <li><a href="#1-expectations">Expectations</a></li>
-  <li><a href="#2-lowering-the-mental-burden">Lowering the mental burden</a></li>
-  <li><a href="#3-equipment">Equipment</a></li>
-  <li><a href="#4-start-using-with-androidaps">Start using with AndroidAPS</a></li>
-  <li><a href="#5-suggestions">Suggestions</a>
-	<ul>
-		<li>5.1 <a href="#5-1GETTING_USED_TO_LYUMJEV">GETTING_USED_TO_LYUMJEV</a></li>
-		<li>5.2 <a href="#5-2PHYSICAL_TEST">PHYSICAL_TEST</a></li>
-		<li>5.3 <a href="#5-3CANNULA_SPOT">CANNULA_SPOT</a></li>
-		<li>5.4 <a href="#5-4CANNULA_LENGTH">CANNULA_LENGTH</a></li>
-		<li>5.5 <a href="#5-5CANNULA_CHANGE">CANNULA_CHANGE</a></li>
-		<li>5.6 <a href="#5-6BOLUS_SPEED">BOLUS_SPEED</a></li>
-		<li>5.7 <a href="#5-7BOLUS_MAXIMIZE">BOLUS_MAXIMIZE</a></li>
-		<li>5.8 <a href="#5-8BOLUS_PARTLY_UAM">BOLUS_PARTLY_UAM</a></li>
-		<li>5.9 <a href="#5-9BOLUS_FULL_UAM">BOLUS_FULL_UAM</a></li>
-		<li>5.10 <a href="#5-10BASAL_CIRCADIAN">BASAL_CIRCADIAN</a></li>
-		<li>5.11 <a href="#5-11EAT_MORE_OFTEN">EAT_MORE_OFTEN</a></li>
-		<li>5.12 <a href="#5-12INSULIN_CONCENTRATION">INSULIN_CONCENTRATION</a></li>
-		<li>5.13 <a href="#5-13INSULIN_MIXING">INSULIN_MIXING</a></li>
-		<li>5.14 <a href="#5-14YPSOMED_REUSE">YPSOMED_REUSE</a></li>
-		<li>5.15 <a href="#5-15SWITCH_FIASP">SWITCH_FIASP</a></li>
-	</ul></li>
-  <li><a href="#6-i-need-help">I need help</a></li>
-  <li><a href="#7-overview-of-partly-used-sources">Overview of (partly) used sources</a></li>
-  <li><a href="#8-version-history">Version history</a></li>
+	<li><a href="#0-preface">Preface</a></li>
+	<li><a href="#1-expectations">Expectations</a></li>
+	<li><a href="#2-lowering-the-mental-burden">Lowering the mental burden</a></li>
+	<li><a href="#3-equipment">Equipment</a></li>
+	<li><a href="#4-start-using-with-androidaps">Start using with AndroidAPS</a></li>
+	<li><a href="#5-suggestions">Suggestions</a>
+		<ul>
+			<li>5.1 <a href="#5-1GETTING_USED_TO_LYUMJEV">GETTING_USED_TO_LYUMJEV</a></li>
+			<li>5.2 <a href="#5-2PHYSICAL_TEST">PHYSICAL_TEST</a></li>
+			<li>5.3 <a href="#5-3CANNULA_SPOT">CANNULA_SPOT</a></li>
+			<li>5.4 <a href="#5-4CANNULA_LENGTH">CANNULA_LENGTH</a></li>
+			<li>5.5 <a href="#5-5CANNULA_CHANGE">CANNULA_CHANGE</a></li>
+			<li>5.6 <a href="#5-6BOLUS_SPEED">BOLUS_SPEED</a></li>
+			<li>5.7 <a href="#5-7BOLUS_MAXIMIZE">BOLUS_MAXIMIZE</a></li>
+			<li>5.8 <a href="#5-8BOLUS_PARTLY_UAM">BOLUS_PARTLY_UAM</a></li>
+			<li>5.9 <a href="#5-9BOLUS_FULL_UAM">BOLUS_FULL_UAM</a></li>
+			<li>5.10 <a href="#5-10BASAL_CIRCADIAN">BASAL_CIRCADIAN</a></li>
+			<li>5.11 <a href="#5-11EAT_MORE_OFTEN">EAT_MORE_OFTEN</a></li>
+			<li>5.12 <a href="#5-12INSULIN_CONCENTRATION">INSULIN_CONCENTRATION</a></li>
+			<li>5.13 <a href="#5-13INSULIN_MIXING">INSULIN_MIXING</a></li>
+			<li>5.14 <a href="#5-14YPSOMED_REUSE">YPSOMED_REUSE</a></li>
+			<li>5.15 <a href="#5-15SWITCH_FIASP">SWITCH_FIASP</a></li>
+		</ul>
+	</li>
+	<li><a href="#6-i-need-help">I need help</a></li>
+	<li><a href="#7-overview-of-partly-used-sources">Overview of (partly) used sources</a></li>
+	<li><a href="#8-version-history">Version history</a></li>
 </ol>
 
 <a name="0-preface"></a>
@@ -50,7 +51,7 @@ This document is part of <a href="https://petervanrijt.nl/category/diabetes/" ta
 
 For quite some time, I have been reading on Lyumjev and looping. Last week we started with using Lyumjev ourselves. I have summarized all suggestions I have read in this PowerPoint. Creating it took me quite some time, with several months in preparation by reading and saving links.
 
-What is Lyumjev? This translated quote from <a href="https://www.diabetestype1.nl/gesprekken/behandeling/718-wanneer-mogen-we-eindelijk-eens-lyumjev-insuline-gaan-gebruiken-in-nederland" target="_blank">this article on diabetestype1.nl</a>) describes: "_Lyumjev is an ultra-fast-acting insulin (a so-called URLi - Ultra-rapid lispro), which works faster than e.g. Humalog or Novorapid, and even faster than Fiasp. This insulin can better combat glucose peaks after a meal (...)_". The shorter peak time of <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#lyumjev" target="_blank">Lyumjev with 45 minutes</a>, compared to <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#rapid-acting-oref" target="_blank">75 minutes (Humalog, Novolog, Novorapid)</a> and <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#ultra-rapid-oref" target="_blank">55 minutes (FIASP)</a>, is a significant difference in using all available automation in (do-it-yourself) closed loops systems. See <a href="#2-lowering-the-mental-burden">chapter 2</a> for a look into the future and what can already be achieved with do-it-yourself closed loop systems!
+What is Lyumjev? This translated quote from <a href="https://www.diabetestype1.nl/gesprekken/behandeling/718-wanneer-mogen-we-eindelijk-eens-lyumjev-insuline-gaan-gebruiken-in-nederland" target="_blank">this article on diabetestype1.nl</a> describes: "_Lyumjev is an ultra-fast-acting insulin (a so-called URLi - Ultra-rapid lispro), which works faster than e.g. Humalog or Novorapid, and even faster than Fiasp. This insulin can better combat glucose peaks after a meal (...)_". The shorter peak time of <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#lyumjev" target="_blank">Lyumjev with 45 minutes</a>, compared to <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#rapid-acting-oref" target="_blank">75 minutes (Humalog, Novolog, Novorapid)</a> and <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#ultra-rapid-oref" target="_blank">55 minutes (FIASP)</a>, is a significant difference in using all available automation in (do-it-yourself) closed loops systems. See <a href="#2-lowering-the-mental-burden">chapter 2</a> for a look into the future and what can already be achieved with do-it-yourself closed loop systems!
 
 I am convinced it is a waste of resources when everybody does the same and asks the same questions on the do-it-yourself Facebook groups. When everybody provides feedback on this summary, (new) users can improve faster with fewer basic questions, and therefore have more time to improve their personal settings. 
 
@@ -75,7 +76,7 @@ Peter #wearenotwaiting #payitforward
 <a name="2-lowering-the-mental-burden"></a>
 
 # 2. Lowering the mental burden <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
-The quote below is the introduction of my blog post <a href="https://petervanrijt.nl/2021/01/08/my-first-feature-request-to-the-open-source-community/" target="_blank">My first feature request to the open source community: unburdening diabetes care</a> (or GitHub <a href="https://github.com/nightscout/cgm-remote-monitor/issues/6717" target="_blank">Nightscout issue 6717</a>). The blog post suggests ADMI (Average Daily Manual Interactions) as a new psychical metric, which becomes opportune due to the combination of Lyumjev, a good blood glucose sensor, and all automation possible in do-it-yourself closed loop systems.
+The quote below is the introduction of my blog post <a href="https://petervanrijt.nl/2021/01/08/my-first-feature-request-to-the-open-source-community/" target="_blank">My first feature request to the open source community: unburdening diabetes care</a> (or GitHub <a href="https://github.com/nightscout/cgm-remote-monitor/issues/6717" target="_blank">Nightscout issue 6717</a>). 
 
 > Our assumption for 'a good quality of life' is the combination of physical health (body) and psychological health (little as possible manual interventions). Closed loop systems really have improved my girlfriend's physical health and ensure less worrying (especially at night). We both are very grateful for this. At the same time, I see a physical burden arise. This is because all (sensor) data, options, and alerts are always available. In one of our home discussions with my girlfriend, I asked what is most important to her. She mentioned:
 >
@@ -85,6 +86,8 @@ The quote below is the introduction of my blog post <a href="https://petervanrij
 >
 > Her deepest desire is to live a normal – as possible – life without being bothered by diabetes. And stay healthy in the long run!
 
+The blog post suggests ADMI (Average Daily Manual Interactions) as a new psychical metric, which becomes opportune due to the combination of Lyumjev, a good blood glucose sensor, and all automation possible in do-it-yourself closed loop systems.
+
 Bernd Herpichböhm has made profound contributions to the challenge of lowering the mental burden of diabetes. With his research, it seems Bernd has solved the puzzle Dana Lewis wrote in the Artificial Pancreas Book: '<a href="https://www.artificialpancreasbook.com/1.-whats-a-closed-loop-or-artificial-pancreas-system-and-why-would-someone-use-one#choose-one-what-would-you-give-up-if-you-could" target="_blank">Choose one - what would you give up if you could?</a>'. It seems, with much testing (basal rate, I/C, ISF, and DIA) and custom triggers, it is possible to get a 5 out of 5:
 
 + No need to bolus 
@@ -93,16 +96,16 @@ Bernd Herpichböhm has made profound contributions to the challenge of lowering 
 + 80%+ time in range  
 + No hypoglycemia
 
-See these Facebook links <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2924763827745015/" target="_blank">v.5_02 E</a> and <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2932619803626084" target="_blank">v.5.4_12</a>, which point to "_This is a update on Looping without bolussing, and without carb inputs._", to use with AndroidAPS or OpenAPS. Also, see <a href="https://www.diabettech.com/oref1/lyumjev-a-fully-closed-loop-case-study-with-oref1/" target="_blank">https://www.diabettech.com/oref1/lyumjev-a-fully-closed-loop-case-study-with-oref1/</a> and <a href="https://www.diabettech.com/wp-content/uploads/2020/10/Lyumjev_w.UAM-week_Be_13Oct20.pdf" target="_blank">https://www.diabettech.com/wp-content/uploads/2020/10/Lyumjev_w.UAM-week_Be_13Oct20.pdf</a>.
+See Facebook links <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2924763827745015/" target="_blank">v.5\_02 E</a> and <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2932619803626084" target="_blank">v.5.4\_12</a>, which point to "_This is a update on Looping without bolussing, and without carb inputs._", to use with AndroidAPS or OpenAPS. Also, see <a href="https://www.diabettech.com/oref1/lyumjev-a-fully-closed-loop-case-study-with-oref1/" target="_blank">https://www.diabettech.com/oref1/lyumjev-a-fully-closed-loop-case-study-with-oref1/</a> and <a href="https://www.diabettech.com/wp-content/uploads/2020/10/Lyumjev_w.UAM-week_Be_13Oct20.pdf" target="_blank">https://www.diabettech.com/wp-content/uploads/2020/10/Lyumjev_w.UAM-week_Be_13Oct20.pdf</a>.
 
 <a name="3-equipment"></a>
 
 # 3. Equipment <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 In our setup, we use:
 
-+ <a href="https://www.accu-chek.nl/insight-classic" target="_blank">Accu-Chek Insight pump</a>
-+ Lyumjev U100 insulin pens (make sure you Lyumjev, instead of Lispro)
-+ AndroidAPS (latest version, currently <a href="https://github.com/nightscout/AndroidAPS/releases/tag/2.8.2" target="_blank">2.8.2</a>)
++ <a href="https://www.accu-chek.nl/insight-classic" target="_blank">Accu-Chek Insight pump</a>;
++ Lyumjev U100 insulin pens (make sure you Lyumjev, instead of Lispro);
++ AndroidAPS (latest version, currently <a href="https://github.com/nightscout/AndroidAPS/releases/tag/2.8.2" target="_blank">2.8.2</a>);
 + Ypsomed ampuls, which you need to fill yourself using the insulin pens.
 
 Contact your healthcare provider to finance all equipment.
@@ -152,7 +155,7 @@ To make the most of your (do-it-yourself) closed loop systems we all need to hav
 Bundled four of my favorite resources to help you determine basic settings:
 
 <ol>
-	<li>Your medical team.</li>
+	<li>Your medical team;</li>
 	<li>Visit <a href="https://waltzingthedragon.ca/" target="_blank">Waltzing the Dragon | Taming the dragon together</a>. This website is practical and informational, with tips from the trenches. I don't see this kind of information bundled on other sites. Loads of articles, I want to highlight the following:
 		<ul>
 			<li><a href="https://waltzingthedragon.ca/diabetes/managing-bg/adjusting-insulin-pump-assessing-pump-basal-rates/" target="_blank">Testing and Tweaking Basal Rates</a></li>
@@ -216,8 +219,8 @@ This suggestion is mentioned in <a href="#2-lowering-the-mental-burden">chapter 
 
 ## 5.10 BASAL_CIRCADIAN <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 When you encounter the problem of finding the proper (basal rate, I/C, ISF) settings, which is crucial in using BOLUS_FULL_UAM, you could consider discussing the use of a circadian profile. Online I read several users getting good results with these settings. See <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2869638923257505" target="_blank">https://www.facebook.com/groups/AndroidAPSUsers/permalink/2869638923257505</a>. To search the proper I/C and ISF settings for this model, on Facebook two documents are published by Bernd Herpichböhm:
-+ <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2927820974105967/" target="_blank">How to determine the IC factor (carb ratio)</a>
-+ <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2927820624106002/" target="_blank">How to determine ISF</a>
++ <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2927820974105967/" target="_blank">How to determine the IC factor (carb ratio)</a>;
++ <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2927820624106002/" target="_blank">How to determine ISF</a>.
 
 <a name="5-11EAT_MORE_OFTEN"></a>
 
@@ -238,9 +241,9 @@ Lyumjev is supplied as a standard concentration of U100. There is also Lyumjev U
 The option to select Lyumjev in AndroidAPS is not available. For this, there was a discussion on GitHub <a href="https://github.com/nightscout/AndroidAPS/issues/527" target="_blank">Nightscout – AndroidAPS, issue 527, Lyumjev U200/ML</a>: "Request to make an adjustment in AndroidAPS to use Lyumjev U200/ml safely.". Also, see Facebook posts like <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/3001351296752934/" target="_blank">https://www.facebook.com/groups/AndroidAPSUsers/permalink/3001351296752934/</a> and <a href="https://www.facebook.com/groups/loopednl/posts/751246758905091/" target="_blank">https://www.facebook.com/groups/loopednl/posts/751246758905091/</a>.
 
 You need to be an advanced user to consider Lyumjev 200. The 'do-it-yourself community' did find a way to use Lyumjev U200 with AndroidAPS. In AndroidAPS, you need to make several adjustments for the <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html?highlight=lyumjev#lyumjev" target="_blank">Lyumjev insulin type</a>:
-+ Halve basal (some users cite an 'extra margin of safety': basal / 2 * 0.9);
++ Halve basal (some users mention an 'extra margin of safety': basal / 2 * 0.9);
 + Double ISF (some users mention an 'extra margin of safety': ISF * 2 * 1.1);
-+ Double I/C (some users call an 'extra margin of safety': I/C * 2 * 0.9);
++ Double I/C (some users mention an 'extra margin of safety': I/C * 2 * 0.9);
 + Correct AndroidAPS security settings such as max IOB, max bolus, and max basal;
 + U200 is twice as strong as 'normal Lyumjev U100 insulin'. Be careful with 'calculating units manually'. Make sure you get used to this way of calculating!
 
@@ -250,7 +253,7 @@ You need to be an advanced user to consider Lyumjev 200. The 'do-it-yourself com
 Online, users are reporting that a body probably will adjust in bolussing Lyumjev. Reports suggest it will take somewhere between 1 – 2 months. 
 
 When bolussing is painful, some users online report that mixing Humalog with Lyumjev will help normal bolus amounts without too much pain. Steps I have read: 
-+ 50% Humalog /50% Lyumjev;
++ 50% Humalog / 50% Lyumjev;
 + 33% Humalog / 67% Lyumjev;
 + 0% Humalog / 100% Lyumjev.
 
@@ -344,6 +347,7 @@ Online, several Facebook groups – and websites – provide do-it-yourself sugg
 <a name="8-version-history"></a>
 
 # 8. Version history <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
++ v0.7: minor updates; text formatting.
 + v0.6: added options to provide feedback.
 + v0.5: text review using Grammarly.
 + v0.4: updated preface with a description of Lyumjev.
