@@ -1,4 +1,4 @@
-TEST<a name="top"></a>
+<a name="top"></a>
 
 First, the disclaimer: I am not a healthcare professional. This document is created as a personal summary. No medical decisions should be made solely based on this document. **Always consult your medical team before making changes to your diabetes treatment plan.** 
 
