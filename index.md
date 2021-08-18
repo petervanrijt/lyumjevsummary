@@ -1,6 +1,6 @@
 <a name="top"></a>
 
-First, the disclaimer: I am not a healthcare professional. This document is created as a personal summary. No medical decisions should be made solely based on this document. **Always consult your medical team before making changes to your diabetes treatment plan.**. Use <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https%3A%2F%2Fpetervanrijt.github.io%2Flyumjevsummary%2F">this link</a> for an automatic translation using Google Translate.
+First, the disclaimer: I am not a healthcare professional. This document is created as a personal summary. No medical decisions should be made solely based on this document. **Always consult your medical team before making changes to your diabetes treatment plan.** Use <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https%3A%2F%2Fpetervanrijt.github.io%2Flyumjevsummary%2F">this link</a> for an automatic translation using Google Translate.
 
 ![A warning to not make medical decisions.](img/No_medical_advice.jpg "No medical decisions should be made solely based on this document.")
 
