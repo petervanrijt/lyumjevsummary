@@ -1,13 +1,15 @@
 <a name="top"></a>
 
-First, the disclaimer: I am not a healthcare professional. This document is created as a personal summary. No medical decisions should be made solely based on this document. **Always consult your medical team before making changes to your diabetes treatment plan.** Use <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https%3A%2F%2Fpetervanrijt.github.io%2Flyumjevsummary%2F">this link</a> for an automatic translation using Google Translate.
+First, the disclaimer: I am not a healthcare professional. This document is created as a personal summary. No medical decisions should be made solely based on this document. **Always consult your medical team before making changes to your diabetes treatment plan.** 
+
+Use <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https%3A%2F%2Fpetervanrijt.github.io%2Flyumjevsummary%2F">this link</a> for an automatic translation using Google Translate. To discuss this document, open a <a href="https://github.com/petervanrijt/lyumjevsummary/issues" target="_blank">GitHub project issue</a> or reply in one of the Facebook topics in <a href="https://www.facebook.com/groups/AndroidAPSUsers/posts/3067666210121442" target="_blank">AndroidAPS Users</a> (English), <a href="https://www.facebook.com/groups/TheLoopedGroup/permalink/2919527414930572" target="_blank">Looped</a> (English), <a href="https://www.facebook.com/groups/loopednl/permalink/801595467203553" target="_blank">Looped-NL-BE</a> (Dutch).
 
 ![A warning to not make medical decisions.](img/No_medical_advice.jpg "No medical decisions should be made solely based on this document.")
 
 <a name="version"></a>
 
 # Version
-Version 0.5, see [8. Version history](#8-version-history).
+Version 0.6, see [8. Version history](#8-version-history).
 
 <a name="toc"></a>
 
@@ -342,6 +344,7 @@ Online, several Facebook groups – and websites – provide do-it-yourself sugg
 <a name="8-version-history"></a>
 
 # 8. Version history <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
++ v0.6: added options to provide feedback.
 + v0.5: text review using Grammarly.
 + v0.4: updated preface with a description of Lyumjev.
 + v0.3: added links for automatic Google Translation (2x).
