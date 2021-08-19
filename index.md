@@ -108,7 +108,7 @@ In our setup, we use:
 + <a href="https://www.accu-chek.nl/insight-classic" target="_blank">Accu-Chek Insight pump</a>;
 + Lyumjev U100 insulin pens (make sure you use Lyumjev, instead of Lispro);
 + AndroidAPS (latest version, currently <a href="https://github.com/nightscout/AndroidAPS/releases/tag/2.8.2" target="_blank">2.8.2</a>);
-+ mylife YpsoPump Reservoir, which you need to fill yourself using the insulin pens. Navigate on <a href="https://www.mylife-diabetescare.com/en-GB/products/infusion-systems/mylife-ypsopump-reservoir.html" target="_blank">the product page</a> to 'How to handle the mylife YpsoPump Reservoir' for a video instruction.
++ mylife YpsoPump Reservoir, which you need to fill yourself using the insulin pens. Navigate on <a href="https://www.mylife-diabetescare.com/en-GB/products/infusion-systems/mylife-ypsopump-reservoir.html" target="_blank">the product page</a> to 'How to handle the mylife YpsoPump Reservoir' for video instruction.
 
 Contact your healthcare provider to finance all equipment.
 
