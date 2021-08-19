@@ -106,7 +106,7 @@ See Facebook links <a href="https://www.facebook.com/groups/AndroidAPSUsers/perm
 In our setup, we use:
 
 + <a href="https://www.accu-chek.nl/insight-classic" target="_blank">Accu-Chek Insight pump</a>;
-+ Lyumjev U100 insulin pens (make sure you Lyumjev, instead of Lispro);
++ Lyumjev U100 insulin pens (make sure you use Lyumjev, instead of Lispro);
 + AndroidAPS (latest version, currently <a href="https://github.com/nightscout/AndroidAPS/releases/tag/2.8.2" target="_blank">2.8.2</a>);
 + Ypsomed ampuls, which you need to fill yourself using the insulin pens.
 
