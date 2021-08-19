@@ -9,7 +9,7 @@ Use <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https%3A
 <a name="version"></a>
 
 # Version
-Version 0.7, see [8. Version history](#8-version-history).
+Version 0.8, see [8. Version history](#8-version-history).
 
 <a name="toc"></a>
 
@@ -35,7 +35,7 @@ Version 0.7, see [8. Version history](#8-version-history).
 			<li>5.11 <a href="#5-11EAT_MORE_OFTEN">EAT_MORE_OFTEN</a></li>
 			<li>5.12 <a href="#5-12INSULIN_CONCENTRATION">INSULIN_CONCENTRATION</a></li>
 			<li>5.13 <a href="#5-13INSULIN_MIXING">INSULIN_MIXING</a></li>
-			<li>5.14 <a href="#5-14YPSOMED_REUSE">YPSOMED_REUSE</a></li>
+			<li>5.14 <a href="#5-14RESERVOIR_REUSE">RESERVOIR_REUSE</a></li>
 			<li>5.15 <a href="#5-15SWITCH_FIASP">SWITCH_FIASP</a></li>
 		</ul>
 	</li>
@@ -108,7 +108,7 @@ In our setup, we use:
 + <a href="https://www.accu-chek.nl/insight-classic" target="_blank">Accu-Chek Insight pump</a>;
 + Lyumjev U100 insulin pens (make sure you use Lyumjev, instead of Lispro);
 + AndroidAPS (latest version, currently <a href="https://github.com/nightscout/AndroidAPS/releases/tag/2.8.2" target="_blank">2.8.2</a>);
-+ Ypsomed ampuls, which you need to fill yourself using the insulin pens.
++ mylife YpsoPump Reservoir, which you need to fill yourself using the insulin pens (navigate to 'How to handle the mylife YpsoPump Reservoir' on <a href="https://www.mylife-diabetescare.com/en-GB/products/infusion-systems/mylife-ypsopump-reservoir.html" target="_blank">the product page</a> for a video instruction).
 
 Contact your healthcare provider to finance all equipment.
 
@@ -137,7 +137,7 @@ Contact your healthcare provider to finance all equipment.
 + 5.11 [EAT_MORE_OFTEN](#5-11EAT_MORE_OFTEN)
 + 5.12 [INSULIN_CONCENTRATION](#5-12INSULIN_CONCENTRATION)
 + 5.13 [INSULIN_MIXING](#5-13INSULIN_MIXING)
-+ 5.14 [YPSOMED_REUSE](#5-14YPSOMED_REUSE)
++ 5.14 [RESERVOIR_REUSE](#5-14RESERVOIR_REUSE)
 + 5.15 [SWITCH_FIASP](#5-15SWITCH_FIASP)
 
 <a name="5-1GETTING_USED_TO_LYUMJEV"></a>
@@ -259,10 +259,10 @@ When bolussing is painful, some users online report that mixing Humalog with Lyu
 + 33% Humalog / 67% Lyumjev;
 + 0% Humalog / 100% Lyumjev.
 
-<a name="5-14YPSOMED_REUSE"></a>
+<a name="5-14RESERVOIR_REUSE"></a>
 
-## 5.14 YPSOMED_REUSE <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
-In the Netherlands, health insurance pays for the equipment almost in full (see <a href="#3-equipment">chapter 3</a>). Despite that, on a private Facebook chat, I spoke with a do-it-yourself community member. He/she mentioned reusing the Ypsomed ampuls once to lower equipment costs.
+## 5.14 RESERVOIR_REUSE <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
+In the Netherlands, health insurance pays for the equipment almost in full (see <a href="#3-equipment">chapter 3</a>). Despite that, on a private Facebook chat, I spoke with a do-it-yourself community member. He/she mentioned reusing YpsoPump Reservoirs once to lower equipment costs.
 
 <a name="5-15SWITCH_FIASP"></a>
 
@@ -349,6 +349,7 @@ Online, several Facebook groups – and websites – provide do-it-yourself sugg
 <a name="8-version-history"></a>
 
 # 8. Version history <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
++ v0.8: changed naming of 'Ypsomed ampuls' to 'mylife YpsoPump Reservoir', added link to video on filling reservoir.
 + v0.7: minor updates; text formatting.
 + v0.6: added options to provide feedback.
 + v0.5: text review using Grammarly.
