@@ -9,7 +9,7 @@ Use <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https%3A
 <a name="version"></a>
 
 # Version
-Version 0.10, see [8. Version history](#8-version-history).
+Version 0.11, see [8. Version history](#8-version-history).
 
 <a name="toc"></a>
 
@@ -53,7 +53,7 @@ For quite some time, I have been reading on Lyumjev and looping. Last week we st
 
 What is Lyumjev? This translated quote from <a href="https://www.diabetestype1.nl/gesprekken/behandeling/718-wanneer-mogen-we-eindelijk-eens-lyumjev-insuline-gaan-gebruiken-in-nederland" target="_blank">this article on diabetestype1.nl</a> describes: "_Lyumjev is an ultra-fast-acting insulin (a so-called URLi - Ultra-rapid lispro), which works faster than e.g. Humalog or Novorapid, and even faster than Fiasp. This insulin can better combat glucose peaks after a meal (...)_". 
 
-The shorter peak time of <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#lyumjev" target="_blank">45 minutes with Lyumjev</a>, compared to <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#rapid-acting-oref" target="_blank">75 minutes (Humalog, Novolog, Novorapid)</a> or <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#ultra-rapid-oref" target="_blank">55 minutes (FIASP)</a>, is a significant difference in using all available automation in (do-it-yourself) closed loops systems. See <a href="#2-lowering-the-mental-burden">chapter 2</a> for a look into the future and what can already be achieved with do-it-yourself closed loop systems!
+The shorter peak time of <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#lyumjev" target="_blank">45 minutes with Lyumjev</a>, compared to <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#rapid-acting-oref" target="_blank">75 minutes (Humalog, Novolog, Novorapid)</a> and <a href="https://androidaps.readthedocs.io/en/latest/Configuration/Config-Builder.html#ultra-rapid-oref" target="_blank">55 minutes (FIASP)</a>, seems small but is a significant difference in using all available automation in (do-it-yourself) closed loops systems. See <a href="#2-lowering-the-mental-burden">chapter 2</a> for a look into the future and what can already be achieved with do-it-yourself closed loop systems!
 
 I am convinced it is a waste of resources when everybody does the same and asks the same questions on the do-it-yourself Facebook groups. When everybody provides feedback on this summary, (new) users can improve faster with fewer basic questions, and therefore have more time to improve their personal settings. 
 
@@ -349,6 +349,7 @@ Online, several Facebook groups – and websites – provide do-it-yourself sugg
 <a name="8-version-history"></a>
 
 # 8. Version history <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
++ v0.11: update preface.
 + v0.10: minor change.
 + v0.9: minor change.
 + v0.8: changed naming of 'Ypsomed ampuls' to 'mylife YpsoPump Reservoir', added link to video on filling reservoir.
