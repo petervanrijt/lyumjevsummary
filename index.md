@@ -9,7 +9,7 @@ Use <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https%3A
 <a name="version"></a>
 
 # Version
-Version 0.8, see [8. Version history](#8-version-history).
+Version 0.9, see [8. Version history](#8-version-history).
 
 <a name="toc"></a>
 
@@ -237,7 +237,7 @@ When bolussing is painful, there is always the option to reduce boluses by eatin
 Lyumjev is supplied as a standard concentration of U100. There is also Lyumjev U200, double concentrated. U200 means a smaller bolus is needed and thus possibly a less painful feeling during the habituation period. Also, insulin accumulation seems less likely. On Facebook, I see positive reactions on U200:
 + "_it is far way better for the cannula site than U100._";
 + "_I prefer it to the U100 by far._";
-+ "_I second (or third) Cristina and Tim. Additionally, since using U200 I never felt pain when insulin was injected._";
++ "_(...) since using U200 I never felt pain when insulin was injected._";
 + "_Also use U200 and for me it was really better_".
 
 The option to select Lyumjev in AndroidAPS is not available. For this, there was a discussion on GitHub <a href="https://github.com/nightscout/AndroidAPS/issues/527" target="_blank">Nightscout – AndroidAPS, issue 527, Lyumjev U200/ML</a>: "Request to make an adjustment in AndroidAPS to use Lyumjev U200/ml safely.". Also, see Facebook posts like <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/3001351296752934/" target="_blank">https://www.facebook.com/groups/AndroidAPSUsers/permalink/3001351296752934/</a> and <a href="https://www.facebook.com/groups/loopednl/posts/751246758905091/" target="_blank">https://www.facebook.com/groups/loopednl/posts/751246758905091/</a>.
@@ -349,6 +349,7 @@ Online, several Facebook groups – and websites – provide do-it-yourself sugg
 <a name="8-version-history"></a>
 
 # 8. Version history <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
++ v0.9: minor change.
 + v0.8: changed naming of 'Ypsomed ampuls' to 'mylife YpsoPump Reservoir', added link to video on filling reservoir.
 + v0.7: minor updates; text formatting.
 + v0.6: added options to provide feedback.
