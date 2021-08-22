@@ -1,7 +1,7 @@
 # lyumjevsummary
 
 ## README.md
-The website <a href="https://petervanrijt.github.io/lyumjevsummary/">https://petervanrijt.github.io/lyumjevsummary/</a> is part of <a href="https://petervanrijt.nl/category/diabetes/" target="_blank">my blog series</a>. I do not have – and do not want – any sponsorship deals or whatsoever and pay for all equipment just like anybody else. 
+The website <a href="https://petervanrijt.github.io/lyumjevsummary/" target="_blank">https://petervanrijt.github.io/lyumjevsummary/</a> is part of <a href="https://petervanrijt.nl/category/diabetes/" target="_blank">my blog series</a>. I do not have – and do not want – any sponsorship deals or whatsoever and pay for all equipment just like anybody else. 
 
 For quite some time, I have been reading on Lyumjev and looping. Last week we started with using Lyumjev ourselves. On this website I have summarized all suggestions I have read online. Creating it took me quite some time, with several months in preparation by reading and saving links.
 
