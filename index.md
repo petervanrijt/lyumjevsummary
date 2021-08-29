@@ -9,7 +9,7 @@ Use <a href="https://translate.google.com/translate?hl=en&sl=en&tl=en&u=https%3A
 <a name="version"></a>
 
 # Version
-Version 0.11, see [8. Version history](#8-version-history).
+Version 0.12, see [8. Version history](#8-version-history).
 
 <a name="toc"></a>
 
@@ -31,12 +31,13 @@ Version 0.11, see [8. Version history](#8-version-history).
 			<li>5.7 <a href="#5-7BOLUS_MAXIMIZE">BOLUS_MAXIMIZE</a></li>
 			<li>5.8 <a href="#5-8BOLUS_PARTLY_UAM">BOLUS_PARTLY_UAM</a></li>
 			<li>5.9 <a href="#5-9BOLUS_FULL_UAM">BOLUS_FULL_UAM</a></li>
-			<li>5.10 <a href="#5-10BASAL_CIRCADIAN">BASAL_CIRCADIAN</a></li>
-			<li>5.11 <a href="#5-11EAT_MORE_OFTEN">EAT_MORE_OFTEN</a></li>
-			<li>5.12 <a href="#5-12INSULIN_CONCENTRATION">INSULIN_CONCENTRATION</a></li>
-			<li>5.13 <a href="#5-13INSULIN_MIXING">INSULIN_MIXING</a></li>
-			<li>5.14 <a href="#5-14RESERVOIR_REUSE">RESERVOIR_REUSE</a></li>
-			<li>5.15 <a href="#5-15SWITCH_FIASP">SWITCH_FIASP</a></li>
+			<li>5.10 <a href="#5-10FULL_RESERVOIR">FULL_RESERVOIR</a></li>
+			<li>5.11 <a href="#5-11BASAL_CIRCADIAN">BASAL_CIRCADIAN</a></li>
+			<li>5.12 <a href="#5-12EAT_MORE_OFTEN">EAT_MORE_OFTEN</a></li>
+			<li>5.13 <a href="#5-13INSULIN_CONCENTRATION">INSULIN_CONCENTRATION</a></li>
+			<li>5.14 <a href="#5-14INSULIN_MIXING">INSULIN_MIXING</a></li>
+			<li>5.15 <a href="#5-15RESERVOIR_REUSE">RESERVOIR_REUSE</a></li>
+			<li>5.16 <a href="#5-16SWITCH_FIASP">SWITCH_FIASP</a></li>
 		</ul>
 	</li>
 	<li><a href="#6-i-need-help">I need help</a></li>
@@ -106,7 +107,8 @@ See Facebook links <a href="https://www.facebook.com/groups/AndroidAPSUsers/perm
 In our setup, we use:
 
 + <a href="https://www.accu-chek.nl/insight-classic" target="_blank">Accu-Chek Insight pump</a>;
-+ Lyumjev U100 insulin pens (make sure you use Lyumjev, instead of Lispro);
++ <a href="https://www.medicijnkosten.nl/medicijn?artikel=LYUMJEV+KWIKPEN+INJVLST+100E%2FML+PEN+3ML&id=f206bd308bf33537c77a34331da38d1e" target="_blank">Lyumjev KwikPen U100 3ml</a>
+ (make sure you use Lyumjev, instead of Lispro);
 + AndroidAPS (latest version, currently <a href="https://github.com/nightscout/AndroidAPS/releases/tag/2.8.2" target="_blank">2.8.2</a>);
 + mylife YpsoPump Reservoir, which you need to fill yourself using the insulin pens. Navigate on <a href="https://www.mylife-diabetescare.com/en-GB/products/infusion-systems/mylife-ypsopump-reservoir.html" target="_blank">the product page</a> to 'How to handle the mylife YpsoPump Reservoir' for video instruction.
 
@@ -133,12 +135,13 @@ Contact your healthcare provider to finance all equipment.
 + 5.7 [BOLUS_MAXIMIZE](#5-7BOLUS_MAXIMIZE)
 + 5.8 [BOLUS_PARTLY_UAM](#5-8BOLUS_PARTLY_UAM)
 + 5.9 [BOLUS_FULL_UAM](#5-9BOLUS_FULL_UAM)
-+ 5.10 [BASAL_CIRCADIAN](#5-10BASAL_CIRCADIAN)
-+ 5.11 [EAT_MORE_OFTEN](#5-11EAT_MORE_OFTEN)
-+ 5.12 [INSULIN_CONCENTRATION](#5-12INSULIN_CONCENTRATION)
-+ 5.13 [INSULIN_MIXING](#5-13INSULIN_MIXING)
-+ 5.14 [RESERVOIR_REUSE](#5-14RESERVOIR_REUSE)
-+ 5.15 [SWITCH_FIASP](#5-15SWITCH_FIASP)
++ 5.10 [FULL_RESERVOIR] (#5-10FULL_RESERVOIR)
++ 5.11 [BASAL_CIRCADIAN](#5-11BASAL_CIRCADIAN)
++ 5.12 [EAT_MORE_OFTEN](#5-12EAT_MORE_OFTEN)
++ 5.13 [INSULIN_CONCENTRATION](#5-13INSULIN_CONCENTRATION)
++ 5.14 [INSULIN_MIXING](#5-14INSULIN_MIXING)
++ 5.15 [RESERVOIR_REUSE](#5-15RESERVOIR_REUSE)
++ 5.16 [SWITCH_FIASP](#5-16SWITCH_FIASP)
 
 <a name="5-1GETTING_USED_TO_LYUMJEV"></a>
 
@@ -217,24 +220,29 @@ Online, users are reporting that a body probably will adjust in bolussing Lyumje
 
 This suggestion is mentioned in <a href="#2-lowering-the-mental-burden">chapter 2, 'Lowering the mental burden'</a> of this document. Chapter 2 is for advanced users, has a steep learning curve for all do-it-yourself users, and you probably need some severe perseverance. You will need to invest time, but (hopefully) you will gain a life without bolussing because of using SMB and UAM only.
 
-<a name="5-10BASAL_CIRCADIAN"></a>
+<a name="5-10FULL_RESERVOIR"></a>
 
-## 5.10 BASAL_CIRCADIAN <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
+## 5.10 FULL_RESERVOIR <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
+In our setup, we use 3 ml insulin pens with 1.6 ml reservoirs (see [3. Equipment](#3-equipment)). We fill reservoirs completely (1.6 ml) to minimize refills and cannula changes. This means we use a new insulin pen, even if it's just for 0.2 ml (which is 20 units!).
+
+<a name="5-11BASAL_CIRCADIAN"></a>
+
+## 5.11BASAL_CIRCADIAN <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 When you encounter the problem of finding the proper (basal rate, I/C, ISF) settings, which is crucial in using BOLUS_FULL_UAM, you could consider discussing the use of a circadian profile. Online I read several users getting good results with these settings. See <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2869638923257505" target="_blank">https://www.facebook.com/groups/AndroidAPSUsers/permalink/2869638923257505</a>. To search the proper I/C and ISF settings for this model, on Facebook two documents are published by Bernd Herpichböhm:
 + <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2927820974105967/" target="_blank">How to determine the IC factor (carb ratio)</a>;
 + <a href="https://www.facebook.com/groups/AndroidAPSUsers/permalink/2927820624106002/" target="_blank">How to determine ISF</a>.
 
-<a name="5-11EAT_MORE_OFTEN"></a>
+<a name="5-12EAT_MORE_OFTEN"></a>
 
-## 5.11 EAT_MORE_OFTEN <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
+## 5.12 EAT_MORE_OFTEN <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 Online, users are reporting that a body probably will adjust in bolussing Lyumjev. Reports suggest it will take somewhere between 1 – 2 months. 
 
 When bolussing is painful, there is always the option to reduce boluses by eating more often, and therefore bolus smaller amounts.
 
-<a name="5-12INSULIN_CONCENTRATION"></a>
+<a name="5-13INSULIN_CONCENTRATION"></a>
 
-## 5.12 INSULIN_CONCENTRATION <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
-Lyumjev is supplied as a standard concentration of U100. There is also Lyumjev U200, double concentrated. U200 means a smaller bolus is needed and thus possibly a less painful feeling during the habituation period. Also, insulin accumulation seems less likely. On Facebook, I see positive reactions on U200:
+## 5.13 INSULIN_CONCENTRATION <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
+Lyumjev is supplied as a standard concentration of U100. There is also Lyumjev U200 (<a href="https://www.medicijnkosten.nl/medicijn?artikel=LYUMJEV+KWIKPEN+INJVLST+200E%2FML+PEN+3ML&id=dc505d955a288c9cfab6c9a49c902490" target="_blank">link</a>), double concentrated. U200 means a smaller bolus is needed and thus possibly a less painful feeling during the habituation period. Also, insulin accumulation seems less likely. On Facebook, I see positive reactions on U200:
 + "_it is far way better for the cannula site than U100._";
 + "_I prefer it to the U100 by far._";
 + "_(...) since using U200 I never felt pain when insulin was injected._";
@@ -249,9 +257,9 @@ You need to be an advanced user to consider Lyumjev 200. The 'do-it-yourself com
 + Correct AndroidAPS security settings such as max IOB, max bolus, and max basal;
 + U200 is twice as strong as 'normal Lyumjev U100 insulin'. Be careful with 'calculating units manually'. Make sure you get used to this way of calculating!
 
-<a name="5-13INSULIN_MIXING"></a>
+<a name="5-14INSULIN_MIXING"></a>
 
-## 5.13 INSULIN_MIXING <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
+## 5.14 INSULIN_MIXING <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 Online, users are reporting that a body probably will adjust in bolussing Lyumjev. Reports suggest it will take somewhere between 1 – 2 months. 
 
 When bolussing is painful, some users online report that mixing Humalog with Lyumjev will help normal bolus amounts without too much pain. Steps I have read: 
@@ -259,14 +267,14 @@ When bolussing is painful, some users online report that mixing Humalog with Lyu
 + 33% Humalog / 67% Lyumjev;
 + 0% Humalog / 100% Lyumjev.
 
-<a name="5-14RESERVOIR_REUSE"></a>
+<a name="5-15RESERVOIR_REUSE"></a>
 
-## 5.14 RESERVOIR_REUSE <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
+## 5.15 RESERVOIR_REUSE <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 In the Netherlands, health insurance pays for the equipment almost in full (see <a href="#3-equipment">chapter 3</a>). Despite that, on a private Facebook chat, I spoke with a do-it-yourself community member. He/she mentioned reusing YpsoPump Reservoirs once to lower equipment costs.
 
-<a name="5-15SWITCH_FIASP"></a>
+<a name="5-16SWITCH_FIASP"></a>
 
-## 5.15 SWITCH_FIASP <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
+## 5.16 SWITCH_FIASP <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 Sorry to hear, despite all suggestions from the online community, Lyumjev is too uncomfortable for you. You could consider discussing the use of Fiasp with your medical team, which is slower compared to Lyumjev but faster than NovoRapid.
 
 <a name="6-i-need-help"></a>
@@ -349,6 +357,7 @@ Online, several Facebook groups – and websites – provide do-it-yourself sugg
 <a name="8-version-history"></a>
 
 # 8. Version history <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
++ v0.12: added suggestion [FULL_RESERVOIR](#5-10FULL_RESERVOIR), suggestions increased by 1 as from 5.11 BASAL_CIRCADIAN (was 5.10), renamed 'insulin pen' to 'Lyumjev KwikPen U100 3ml' in [3. Equipment](#3-equipment).
 + v0.11: update preface.
 + v0.10: minor change.
 + v0.9: minor change.
