@@ -250,7 +250,7 @@ When bolussing is painful, there is always the option to reduce boluses by eatin
 
 <a name="5-14INSULIN_CONCENTRATION"></a>
 
-## 5.14 5-14INSULIN_CONCENTRATION <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
+## 5.14 INSULIN_CONCENTRATION_U100_U200 <a href="#top"><img src="img/icons8-slide-up-25.png" alt="Navigate to top of this page" title="Arrow up" /></a>
 Lyumjev is supplied as a standard concentration of U100. There is also Lyumjev U200 (<a href="https://www.medicijnkosten.nl/medicijn?artikel=LYUMJEV+KWIKPEN+INJVLST+200E%2FML+PEN+3ML&id=dc505d955a288c9cfab6c9a49c902490" target="_blank">link</a>), double concentrated. U200 means a smaller bolus is needed and thus possibly a less painful feeling during the habituation period. Also, insulin accumulation seems less likely. On Facebook, I see positive reactions on U200:
 + "_it is far way better for the cannula site than U100._";
 + "_I prefer it to the U100 by far._";
